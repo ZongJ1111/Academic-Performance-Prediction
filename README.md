@@ -21,8 +21,8 @@ torchvision
 Epoch: 50  
 BatchSize: 16  
 Learning Rate: 1e-5  
-LR_DECAY_EPOCH = 20  
-LR_DECAY_RATE = 0.5  
+LR_DECAY_EPOCH: 20  
+LR_DECAY_RATE: 0.5  
 
 # Contact
 If you have any questions, please contact superzj111@163.com.
