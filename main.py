@@ -17,7 +17,7 @@ LR_DECAY_EPOCH = 20
 LR_DECAY_RATE = 0.5
 
 
-class Train_MyDataset(Data.Dataset):
+class Train_Dataset(Data.Dataset):
     p1 = 'train_score_couple_topk.hdf5'
     p2 = '12_365_18_tensor.hdf5'
     def __init__(self, key=1):
@@ -39,7 +39,7 @@ class Train_MyDataset(Data.Dataset):
     def set_list(self, key):
         self.list = self.f1['college'+str(key)]
 
-class Test_MyDataset(Data.Dataset):
+class Test_Dataset(Data.Dataset):
     p1 = 'test_score_couple_del1000.hdf5'
     p2 = '12_365_18_tensor.hdf5'
     def __init__(self, key=1):
@@ -69,8 +69,8 @@ test_loader_list = []
 train_dataset_len = 0
 test_dataset_len = 0
 for i in range(1, 20):
-    train_dataset = Train_MyDataset(i)
-    test_dataset=Test_MyDataset(i)
+    train_dataset = Train_Dataset(i)
+    test_dataset=Test_Dataset(i)
     train_dataset_list.append(train_dataset)
     test_dataset_list.append(test_dataset)
     train_loader = Data.DataLoader(dataset=train_dataset, batch_size=BATCH_SIZE, shuffle=True)
