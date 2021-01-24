@@ -9,7 +9,6 @@ Academic Performance: The academic performance of each  student is measured by G
 
 # Files
 /data preprocessing/Top-k Focused Loss.py: calculate the ∆DCG value of different training pairs;  
-/data preprocessing/dataset make.py: process the student swipe record into a three-dimensional tensor;  
 /TTFB-CNN model.py: the proposed TFTB-CNN model structure；  
 /train.py: model training.
 
