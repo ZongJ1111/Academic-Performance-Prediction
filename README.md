@@ -11,9 +11,10 @@ Academic Performance: The academic performance of each  student is measured by G
 ![image](https://github.com/ZongJ1111/Academic-Performance-Prediction/blob/main/Visualization.png)
 
 ## Files
-  * `/data preprocessing/Top-k Focused Loss.py: calculate the ∆DCG value of different training pairs;  
-  * `/TTFB-CNN model.py: the proposed TFTB-CNN model structure；  
-  * `/train.py: model training.
+
+  * `/data preprocessing/Top-k Focused Loss.py`: calculate the ∆DCG value of different training pairs;  
+  * `/TTFB-CNN model.py`: the proposed TFTB-CNN model structure；  
+  * `/train.py`: model training.
 
 ## Requirements
 Python >= 3.0  
