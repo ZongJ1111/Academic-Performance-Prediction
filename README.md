@@ -14,7 +14,8 @@ Academic Performance: The academic performance of each  student is measured by G
 
   * `/data preprocessing/Top-k Focused Loss.py`: calculate the ∆DCG value of different training pairs;  
   * `/TTFB-CNN model.py`: the proposed TFTB-CNN model structure；  
-  * `/train.py`: model training.
+  * `/train.py`: model training;
+  * `/Visualization.png`: Visualization of the learned embeddings of students from different majors.
 
 ## Requirements
 Python >= 3.0  
