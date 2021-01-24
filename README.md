@@ -7,6 +7,9 @@ The dataset used in this paper were collected from a public  university in China
 Campus Behavior: The dataset contains approximately 13.7  million campus smartcard records of 8,199 undergraduates  from 19 majors covering an entire academic year, i.e., during  2014/09/01 to 2015/08/30. The records reflect some consumption and entry-exit behaviors of students in campus, which  totally take place at 12 different locations, i.e., the laundry  room, bathroom, teaching building, printing center, office  building, library, cafeteria, school bus, supermarket, hospital,  card center, and dormitory. We only considered the students’  behaviors occurring between 6am to 12pm of a day, and  regarded each hour as a time slot.   
 Academic Performance: The academic performance of each  student is measured by Grade Point Average (GPA) over the  academic year. The absolute GPA scores were converted into  the relative performance ranking of students within a major.  As mentioned before, we ranked students in ascending order of  GPA scores. In other words, students with poorer performance  were arranged at higher ranking positions.
 
+## Visualization
+![image](https://github.com/ZongJ1111/Academic-Performance-Prediction/blob/main/Visualization.png)
+
 # Files
 /data preprocessing/Top-k Focused Loss.py: calculate the ∆DCG value of different training pairs;  
 /TTFB-CNN model.py: the proposed TFTB-CNN model structure；  
