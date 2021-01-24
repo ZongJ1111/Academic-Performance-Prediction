@@ -6,7 +6,7 @@ import h5py
 import torch.utils.data as Data
 import numpy as np
 import os
-from TB-CNN model import TBCNN
+from TB-CNN model import TFTBCNN
 
 os.environ["CUDA_VISIBLE_DEVICES"] = '7'
 
