@@ -65,7 +65,7 @@ class ATTN_CNAL(nn.Module):
         output = x * input
         return output
 
-class TBCNN(nn.Module):
+class TCNN(nn.Module):
     def __init__(self):
         super(TBCNN,self).__init__()
 
